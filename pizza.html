@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>The King of Pizza</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+  </head>
+  <body>
+    <jumbotron class="pizza-jumbo">
+      <div class="pizza-order text-center">
+        <h1>The King of Pizza</h1>
+        <h2>Pizza Order From</h2>
+      </div>        
+    </jumbotron>
+    
+    <section class="row">
+      <div class="col-sm-4">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="pizza-size">Pizza Size</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Select your size below</h6>
+            <p>
+            <label><input type="radio" class="size" name="size" value="Personal Pizza" checked> Personal Pizza - $6</label>
+            <label><input type="radio" class="size" name="size" value="Medium Pizza"> Medium Pizza - $10</label>
+            <label><input type="radio" class="size" name="size" value="Large Pizza"> Large Pizza - $14</label>
+            <label><input type="radio" class="size" name="size" value="XLarge Pizza"> XLarge Pizza - $16</label>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="cheese-opt">Cheese</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Select your cheese</h6>
+            <p>
+            <label><input type="radio" class="cheese" name="cheese" value="Regular cheese" checked> Regular</label>
+            <label><input type="radio" class="cheese" name="cheese" value="No cheese"> No Cheese</label>
+            <label><input type="radio" class="cheese" name="cheese" value="Extra cheese"> Extra Cheese - +$3</label>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="crust-opt">Crust</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Select your crust</h6>
+            <p>
+            <label><input type="radio" class="crust" name="crust" value="Plain crust" checked> Plain Crust</label>
+            <label><input type="radio" class="crust" name="crust" value="Garlic butter crust"> Garlic Butter Crust</label>
+            <label><input type="radio" class="crust" name="crust" value="Cheese stuffed crust"> Cheese Stuffed Crust - +$3</label>
+            <label><input type="radio" class="crust" name="crust" value="Spicy crust"> Spicy Crust</label>
+            <label><input type="radio" class="crust" name="crust" value="House special crust"> House Special Crust</label>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="sauce-opt">Sauce</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Select your sauce</h6>
+            <p>
+            <label><input type="radio" class="sauce" name="sauce" value="Marinara sauce" checked> Marinara Sauce</label>
+            <label><input type="radio" class="sauce" name="sauce"> White Sauce</label>
+            <label><input type="radio" class="sauce" name="sauce">  Barbeque Sauce</label>
+            <label><input type="radio" class="sauce" name="sauce"> No Sauce</label>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="veggie-opt">Vegetables</h5>
+            <h6 class="card-subtitle mb-2 text-muted">First choice free, additional $1 each</h6>
+            <p>
+            <label><input type="checkbox" class="veggie" name="veggie" value="tomatoes"> Tomatoes</label>
+            <label><input type="checkbox" class="veggie" name="veggie" value="onions"> Onions</label>
+            <label><input type="checkbox" class="veggie" name="veggie" value="olives"> Olives</label>
+            <label><input type="checkbox" class="veggie" name="veggie" value="green peppers"> Green Peppers</label>
+            <label><input type="checkbox" class="veggie" name="veggie" value="mushrooms"> Mushrooms</label>
+            <label><input type="checkbox" class="veggie" name="veggie" value="pineapple"> Pineapple</label>
+            <label><input type="checkbox" class="veggie" name="veggie" value="spinach"> Spinach</label>
+            <label><input type="checkbox" class="veggie" name="veggie" value="jalapeno"> Jalapeno</label>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="meat-opt">Meats</h5>
+            <h6 class="card-subtitle mb-2 text-muted">First choice free, additional $1 each</h6>
+            <p>
+            <label><input type="checkbox" class="meat" name="meat" value="pepperoni"> Pepperoni</label>
+            <label><input type="checkbox" class="meat" name="meat" value="sausage"> Sausage</label>
+            <label><input type="checkbox" class="meat" name="meat" value="canadian bacon"> Canadian Bacon</label>
+            <label><input type="checkbox" class="meat" name="meat" value="ground beef"> Ground Beef</label>
+            <label><input type="checkbox" class="meat" name="meat" value="anchovy"> Anchovy</label>
+            <label><input type="checkbox" class="meat" name="meat" value="chicken"> Chicken</label>
+            </p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section class="cart text-center">
+      <div id="cart">
+      <div id="title1"><h3>You Ordered:</h3></div>
+          <div id="showText1">Personal Pizza<br>Regular Cheese<br>Marinara Sauce<br>Plain Crust<br></div>
+           <div id="title2"><h3>Subtotal:</h3></div>
+            <div id="showText2">6<br></div>
+              <div id="totalPrice1"><h3>Total Price:</h3></div>
+                <div id="totalPrice2">$6.00</div>
+      </div>      
+
+      <div class="controls">
+        <div class="button" onclick="getReceipt()">
+          <button type="button" class="btn btn-danger btn-lg">Place Order</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="./js/javascript.js"></script>
+  </body>
+</html>

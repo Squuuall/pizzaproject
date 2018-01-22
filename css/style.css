@@ -1,0 +1,48 @@
+body {
+	font-family: 'VT323', monospace;
+}
+
+h1 {
+	font-weight: 500;
+	font-size: 12em;
+}
+
+h2 {
+	font-weight: 200;
+	font-size: 6em;
+}
+
+h5 {
+	font-size: 1.75em;
+}
+
+h6 {
+	font-size: 1.6em;
+}
+
+p, #totalPrice2, #showText1, #showText2  {
+	font-size: 1.5em;
+	margin: 2px;
+}
+
+.pizza-order {
+	background-color: #EC2000;
+}
+
+section {
+	align-items: center;
+	width: 100%;
+}
+
+.card {
+	margin: auto;
+}
+
+.btn {
+	margin: 2px auto;
+	cursor: pointer;
+}
+
+.cart {
+	margin: 20px auto;
+}
